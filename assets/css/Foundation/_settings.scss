@@ -11,8 +11,8 @@
 
 // ----- Base Colors ----- //
 $base-background: #fff;
-$base-color: #40332E;
-$base-link-color: #40332E;
+$base-color: #40332e;
+$base-link-color: #40332e;
 
 // ----- Base Borders & Box Shadows ----- //
 $base-border-color: #000;
@@ -21,14 +21,7 @@ $base-borderRadius: 2px;
 $base-boxShadow: 0 1px 2px rgba($base-color, 0.25);
 
 // ----- Base Content ----- //
-$base-fontFamily: 'ヒラギノ角ゴ Pro',
-'Hiragino Kaku Gothic Pro',
-'メイリオ',
-'Meiryo',
-sans-serif;
-$base-fontFamily-montserrat: 'Montserrat',
-sans-serif;
-$base-fontFamily-MPLUS: 'M PLUS 1p',
-sans-serif;
-$baseFont-size: 1.2rem;
+$base-fontFamily: 'Noto Sans JP',
+  sans-serif;
+$baseFont-size: 1.4rem;
 $base-lineHeight: 1.2;

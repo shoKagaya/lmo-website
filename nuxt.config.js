@@ -1,5 +1,5 @@
 import colors from 'vuetify/es5/util/colors'
-
+import StylelintPlugin from 'stylelint-webpack-plugin'
 export default {
   mode: 'universal',
   /*
@@ -40,7 +40,11 @@ export default {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: [],
+  plugins: [
+    new StylelintPlugin({
+      files: ['**/*.vue', '**/*.scss']
+    })
+  ],
   /*
    ** Nuxt.js dev-modules
    */
@@ -58,13 +62,19 @@ export default {
     '@nuxtjs/axios',
     '@nuxtjs/pwa',
     // Doc: https://github.com/nuxt-community/dotenv-module
-    '@nuxtjs/dotenv'
+    '@nuxtjs/dotenv',
+    'nuxt-webfontloader'
   ],
   /*
    ** Axios module configuration
    ** See https://axios.nuxtjs.org/options
    */
   axios: {},
+  webfontloader: {
+    google: {
+      families: ['Noto+Sans+JP']
+    }
+  },
   /*
    ** vuetify module configuration
    ** https://github.com/nuxt-community/vuetify-module
