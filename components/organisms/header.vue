@@ -33,25 +33,25 @@
 
 <style lang="scss" scoped>
 .l-header {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 2;
+  align-items: center;
   display: flex;
   height: 80px;
-  align-items: center;
   justify-content: space-between;
+  left: 0;
   padding: 12px 40px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 2;
 
   .nav {
-    display: flex;
     align-items: center;
+    display: flex;
   }
 
   .navList {
-    display: flex;
     align-items: center;
+    display: flex;
 
     li {
       margin: 0 20px;
@@ -63,16 +63,16 @@
   }
 
   .btn {
-    display: flex;
     align-items: center;
-    justify-content: center;
-    width: 136px;
-    height: 52px;
     background-color: #de5d0b;
     border-radius: 50px;
-    margin-left: 20px;
     color: #fff;
+    display: flex;
     font-weight: bold;
+    height: 52px;
+    justify-content: center;
+    margin-left: 20px;
+    width: 136px;
   }
 }
 </style>
