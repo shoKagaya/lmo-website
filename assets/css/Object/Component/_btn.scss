@@ -15,4 +15,11 @@
   &:visited {
     color: #fff;
   }
+
+  &.c-btn--lerge {
+    border-radius: 48px;
+    font-size: 2.4rem;
+    height: 84px;
+    width: 484px;
+  }
 }

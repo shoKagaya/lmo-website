@@ -73,11 +73,14 @@
             </div>
             <div class="item">
               <h4 class="detailTitle">具体的な活動内容</h4>
-              <p class="detailText">
+              <p class="detailText col2">
                 <span>
                   ・定例飲み会(毎月第二土曜日)
                   <br />・平日飲み会(不定期) <br />・２種類のライブ（4.5回/年）
-                  <br />- くじ引きスタジオライブ <br />- ライブハウスでのライブ
+                  <span class="line">
+                    - くじ引きスタジオライブ <br />
+                    - ライブハウスでのライブ
+                  </span>
                 </span>
                 <span>
                   ・季節毎のイベント（花見、BBQ、etc…）
@@ -87,7 +90,46 @@
               </p>
             </div>
           </div>
+          <div class="btnArea">
+            <a href="null" class="c-btn">もっと知る</a>
+          </div>
         </div>
+      </div>
+    </section>
+    <section class="c-section join">
+      <div class="c-sectionInner">
+        <h2 class="c-sectionTitle">
+          <span class="c-sectionTitleEn">Join</span>
+          入部について
+        </h2>
+        <p class="readText">
+          社会人軽音サークルL.M.O.では、バンドだけでなく様々な活動を一緒に楽しんでくれる仲間を募集しています！
+        </p>
+        <div class="content">
+          <figure class="illust">
+            <img src="@/assets/img/top/join_illust.png" alt="" />
+          </figure>
+          <div class="textArea">
+            <h3 class="title">入部必須条件</h3>
+            <ul class="list">
+              <li>毎月第2土曜の定例飲み会に参加できる方</li>
+              <li>積極的に部員と会話しようと努力できる方</li>
+              <li>ライブだけでなく、他のイベントにも積極的に参加できる方</li>
+              <li>
+                バンドがやりたいだけというわけではなく、新しい仲間と音楽が楽しみたい方
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="c-section guide">
+      <p class="text">
+        入部を希望される場合、<br />
+        入部案内より手順を必ずご覧いただいた上でお申し込みください。
+      </p>
+      <div class="btnArea">
+        <a href="null" class="c-btn c-btn--lerge">入部案内はこちら</a>
       </div>
     </section>
   </main>
