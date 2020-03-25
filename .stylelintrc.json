@@ -1,22 +1,14 @@
 {
-  "extends": "stylelint-config-standard",
+  "extends": [
+    "stylelint-config-standard"
+  ],
   "plugins": [
     "stylelint-order",
     "stylelint-scss"
   ],
   "rules": {
-    "at-rule-no-unknown": [
-      true,
-      {
-        "ignoreAtRules": [
-          "function",
-          "if",
-          "each",
-          "include",
-          "mixin"
-        ]
-      }
-    ],
+    "at-rule-no-unknown": null,
+    "scss/at-rule-no-unknown": true,
     "string-quotes": "single",
     "block-no-empty": null,
     "selector-pseudo-class-no-unknown": null,
@@ -28,6 +20,5 @@
     "length-zero-no-unit": true,
     "media-feature-name-no-vendor-prefix": true,
     "shorthand-property-no-redundant-values": true
-  },
-  "ignoreAtRules": ["mixin", "include"]
+  }
 }

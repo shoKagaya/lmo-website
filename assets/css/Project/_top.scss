@@ -18,9 +18,8 @@
     justify-content: space-between;
     margin-bottom: 40px;
 
-
     li {
-      border: 2px solid #40332e;
+      border: $border;
       border-radius: 8px;
       margin-left: 3%;
       position: relative;
@@ -77,7 +76,31 @@
 }
 
 .about {
-  background-color: #fff;
-  border: 2px solid #40332e;
-  border-radius: 16px;
+  .content {
+    background-color: #fff;
+    border: $border;
+    border-radius: 16px;
+    padding: 52px 86px 40px;
+  }
+
+  .readText {
+    line-height: 2;
+    margin-bottom: 64px;
+    text-align: center;
+  }
+
+  .title {
+    background: url(~assets/img/top/about_title.svg) no-repeat;
+    background-color: #fff;
+    background-position: center;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 1.4;
+    margin-bottom: 40px;
+    text-align: center;
+
+    .firstLine {
+      font-size: 2.4rem;
+    }
+  }
 }

@@ -1,0 +1,36 @@
+{
+  "editor.minimap.enabled": false,
+  "editor.colorDecorators": false, // カラーデコレーターを非表示
+  //"editor.formatOnPaste": true, // ペースト時に自動でフォーマット
+  "editor.formatOnSave": true, // ファイル保存時に自動でフォーマット
+  "editor.formatOnType": true, // 入力した行を自動でフォーマット
+  "editor.multiCursorModifier": "ctrlCmd", // マウスでの複数選択時の修飾キーを変更
+  "editor.renderControlCharacters": true, // 制御文字を表示
+  "editor.renderLineHighlight": "all", // 選択行を行番号含めすべてハイライト
+  "editor.renderWhitespace": "all", // 半角スペースを常に表示
+  "editor.tabSize": 2, // タブのサイズ変更
+  "editor.wordWrap": "on", // エディターの幅で折り返し
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "emmet.showSuggestionsAsSnippets": true, // Emmet の候補を表示
+  "emmet.triggerExpansionOnTab": true, // TAB キーで Emmet を展開できるようにする
+  "explorer.confirmDelete": false, // ファイル削除時の確認を表示しない
+  "files.insertFinalNewline": true, // ファイルの保存時に末尾を改行
+  "files.trimFinalNewlines": true, // ファイルの保存時に最終行以降をトリミング
+  "files.trimTrailingWhitespace": true, // ファイルの保存時に行末の空白をトリミング
+  "html.format.extraLiners": "", // head, body, /html タグの前に改行を入れない
+  "html.format.unformatted": null, // フレージング・コンテンツ（旧インライン要素のようなタグ）はフォーマットしない
+  "html.format.wrapLineLength": 0, // 行の文字数制限を無くし自動で改行させない
+  "window.openFoldersInNewWindow": "on", // 新規ワークスペースを別ウインドウで開く
+  "window.title": "${activeEditorMedium}${separator}${rootName}", // ウインドウ上部に表示する文字列の設定
+  "workbench.editor.labelFormat": "short", // タブに表示する文字列の設定
+  "workbench.editor.tabSizing": "shrink", // タブの表示設定
+  "workbench.startupEditor": "none",
+  "workbench.colorTheme": "Dracula",
+  "highlight-matching-tag.enabled": true,
+  "editor.detectIndentation": false,
+  "window.zoomLevel": 1,
+  "editor.formatOnPaste": true,
+  "stylelint.autoFixOnSave": true
+}

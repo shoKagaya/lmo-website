@@ -9,4 +9,10 @@
   height: 52px;
   justify-content: center;
   width: 312px;
+
+  &:hover,
+  &:focus,
+  &:visited {
+    color: #fff;
+  }
 }

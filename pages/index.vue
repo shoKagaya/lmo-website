@@ -46,7 +46,7 @@
       </div>
     </section>
     <section class="c-section about">
-      <div class="c-sectionInner">
+      <div class="c-sectionInner inner">
         <h2 class="c-sectionTitle">
           <span class="c-sectionTitleEn">About</span>
           L.M.O.について
@@ -54,9 +54,39 @@
         <div class="content">
           <h3 class="title">
             <span class="firstLine">バンドがやりたいじゃない</span>
-            <br />仲間と一緒に
-            <br />バンドを楽しみたい
+            <br />仲間と一緒に <br />バンドを楽しみたい
           </h3>
+          <p class="readText">
+            これをモットーに活動する
+            <strong>社会人軽音サークルグループ</strong>です。
+            <br />現在「Team:L（入部者募集一時中止）」「Team:M
+            」の2サークルの管理/運営してます。
+            <br />それぞれ独立したサークルではありますが、コンセプトや活動内容はほとんど同じです。
+            <br />年に数回、L.M.O.全体で交流会も行っています。
+          </p>
+          <div class="detail">
+            <div class="item">
+              <h4 class="detailTitle">拠点</h4>
+              <p class="detailText">
+                飲み会会場を五反田とし、ライブや行事ごとに様々な場所で活動中
+              </p>
+            </div>
+            <div class="item">
+              <h4 class="detailTitle">具体的な活動内容</h4>
+              <p class="detailText">
+                <span>
+                  ・定例飲み会(毎月第二土曜日)
+                  <br />・平日飲み会(不定期) <br />・２種類のライブ（4.5回/年）
+                  <br />- くじ引きスタジオライブ <br />- ライブハウスでのライブ
+                </span>
+                <span>
+                  ・季節毎のイベント（花見、BBQ、etc…）
+                  <br />・初心者向け楽器講習会
+                  <br />・L.M.O.合同ライブ(1,2回/年)
+                </span>
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
