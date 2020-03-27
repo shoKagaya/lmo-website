@@ -9,8 +9,7 @@ export default {
   head: {
     titleTemplate: '%s - ' + process.env.npm_package_name,
     title: process.env.npm_package_name || '',
-    meta: [
-      {
+    meta: [{
         charset: 'utf-8'
       },
       {
@@ -23,13 +22,11 @@ export default {
         content: process.env.npm_package_description || ''
       }
     ],
-    link: [
-      {
-        rel: 'icon',
-        type: 'image/x-icon',
-        href: '/favicon.ico'
-      }
-    ]
+    link: [{
+      rel: 'icon',
+      type: 'image/x-icon',
+      href: '/favicon.ico'
+    }]
   },
   /*
    ** Customize the progress-bar color
@@ -50,26 +47,16 @@ export default {
    */
   buildModules: [
     '@nuxt/typescript-build',
-    // Doc: https://github.com/nuxt-community/stylelint-module
     '@nuxtjs/stylelint-module',
     '@nuxtjs/vuetify'
   ],
-  /*
-   ** Nuxt.js modules
-   */
   modules: [
-    // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
     '@nuxtjs/pwa',
-    // Doc: https://github.com/nuxt-community/dotenv-module
     '@nuxtjs/dotenv',
     '@nuxtjs/style-resources',
     'nuxt-webfontloader'
   ],
-  /*
-   ** Axios module configuration
-   ** See https://axios.nuxtjs.org/options
-   */
   axios: {},
   styleResources: {
     scss: ['~assets/css/Foundation/_settings.scss']
@@ -79,10 +66,6 @@ export default {
       families: ['Noto+Sans+JP', 'Ubuntu']
     }
   },
-  /*
-   ** vuetify module configuration
-   ** https://github.com/nuxt-community/vuetify-module
-   */
   vuetify: {
     theme: {
       dark: true,

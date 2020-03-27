@@ -3,8 +3,7 @@
 FLOCSS
 
 1.Foundation - reset/normalize/base...
-2.Layout - header/main/sidebar/footer...
-3.Object
+2.Object
   i. Component - grid/button/form/media...
   ii. Project - articles/ranking/promo...
   iii. Utility - clearfix/display/margin...
@@ -16,12 +15,6 @@ FLOCSS
   ========================================================================== */
 
 @import 'Foundation/imports';
-
-/* ==========================================================================
-   Layout
-   ========================================================================== */
-
-@import 'Layout/imports';
 
 /* ==========================================================================
    Object

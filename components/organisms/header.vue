@@ -1,7 +1,9 @@
 <template>
   <header class="l-header">
     <div class="logo">
-      <img src="@/assets/img/top/logo.svg" alt />
+      <a href="/">
+        <img src="@/assets/img/common/logo.svg" alt="社会人軽音サークルLMO" />
+      </a>
     </div>
     <div class="nav">
       <nav>
@@ -57,7 +59,10 @@
       margin: 0 20px;
 
       a {
+        align-items: center;
+        display: flex;
         font-weight: bold;
+        height: 52px;
       }
     }
   }
