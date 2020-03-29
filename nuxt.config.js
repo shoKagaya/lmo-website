@@ -1,4 +1,5 @@
 import colors from 'vuetify/es5/util/colors'
+import StylelintPlugin from 'stylelint-webpack-plugin'
 
 export default {
   mode: 'universal',
@@ -46,29 +47,25 @@ export default {
    */
   buildModules: [
     '@nuxt/typescript-build',
-    // Doc: https://github.com/nuxt-community/stylelint-module
     '@nuxtjs/stylelint-module',
     '@nuxtjs/vuetify'
   ],
-  /*
-   ** Nuxt.js modules
-   */
   modules: [
-    // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
     '@nuxtjs/pwa',
-    // Doc: https://github.com/nuxt-community/dotenv-module
-    '@nuxtjs/dotenv'
+    '@nuxtjs/dotenv',
+    '@nuxtjs/style-resources',
+    'nuxt-webfontloader'
   ],
-  /*
-   ** Axios module configuration
-   ** See https://axios.nuxtjs.org/options
-   */
   axios: {},
-  /*
-   ** vuetify module configuration
-   ** https://github.com/nuxt-community/vuetify-module
-   */
+  styleResources: {
+    scss: ['~assets/css/Foundation/_settings.scss']
+  },
+  webfontloader: {
+    google: {
+      families: ['Noto+Sans+JP', 'Ubuntu']
+    }
+  },
   vuetify: {
     theme: {
       dark: true,
@@ -92,6 +89,12 @@ export default {
     /*
      ** You can extend webpack config here
      */
-    extend(config, ctx) {}
+    extend(config) {
+      config.plugins.push(
+        new StylelintPlugin({
+          files: ['**/*.vue', '**/*.scss']
+        })
+      )
+    }
   }
 }

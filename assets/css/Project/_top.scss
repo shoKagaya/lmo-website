@@ -1,0 +1,240 @@
+.mainVisual {
+  align-items: center;
+  display: flex;
+  height: 640px;
+  justify-content: center;
+  padding: 0 11.25% 0 8.4%;
+
+  img {
+    max-width: 100%;
+  }
+}
+
+.info {
+  background-color: #fff;
+
+  .infoList {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+
+    li {
+      border: $border;
+      border-radius: 8px;
+      margin-left: 3%;
+      position: relative;
+      width: 32%;
+
+      &:first-child {
+        margin-left: 0;
+      }
+
+      a {
+        display: block;
+        height: 100%;
+        padding: 24px;
+        width: 100%;
+      }
+
+      .tag {
+        align-items: center;
+        border-radius: 20px;
+        color: #fff;
+        display: flex;
+        font-weight: bold;
+        height: 24px;
+        justify-content: center;
+        position: absolute;
+        right: 24px;
+        top: 24px;
+        width: 88px;
+
+        &.tag-m {
+          background-color: #de5d0b;
+        }
+
+        &.tag-l {
+          background-color: #ae963a;
+        }
+
+        &.tag-o {
+          background-color: #7b6143;
+        }
+      }
+
+      .date {
+        font-weight: bold;
+        margin-bottom: 20px;
+      }
+    }
+  }
+
+  .btnArea {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.about {
+  .content {
+    background-color: #fff;
+    border: $border;
+    border-radius: 16px;
+    padding: 52px 86px 40px;
+  }
+
+  .readText {
+    line-height: 2;
+    margin-bottom: 64px;
+    text-align: center;
+  }
+
+  .title {
+    background: url(~assets/img/top/about_title.svg) no-repeat;
+    background-color: #fff;
+    background-position: center;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 1.4;
+    margin-bottom: 40px;
+    text-align: center;
+
+    .firstLine {
+      font-size: 2.4rem;
+    }
+  }
+
+  .detail {
+    margin-bottom: 40px;
+
+    .item {
+      background-color: #f3eedb;
+      border-radius: 16px;
+      padding: 24px 32px;
+
+      &:first-child {
+        margin-bottom: 24px;
+      }
+    }
+
+    .detailTitle {
+      font-size: 1.8rem;
+      font-weight: bold;
+      margin-bottom: 16px;
+    }
+
+    .detailText {
+      line-height: 2;
+
+      &.col2 {
+        align-items: flex-start;
+        display: flex;
+        justify-content: flex-start;
+
+        > span {
+          width: 50%;
+        }
+
+        .line {
+          display: block;
+          padding-left: 1.4rem;
+        }
+      }
+    }
+  }
+
+  .btnArea {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.join {
+  background-color: #fff;
+
+  .readText {
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .content {
+    align-items: flex-start;
+    background-color: #fff;
+    border: $border;
+    border-radius: 16px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 40px;
+
+    .illust {
+      margin-right: 32px;
+
+      img {
+        max-width: 100%;
+      }
+    }
+
+    .title {
+      font-size: 1.8rem;
+      font-weight: bold;
+      margin-bottom: 24px;
+    }
+
+    .list {
+      counter-reset: number;
+
+      li {
+        line-height: 1.7;
+        margin-bottom: 16px;
+        padding-left: 32px;
+        position: relative;
+
+        &::before {
+          background-color: #de5d0b;
+          border-radius: 50%;
+          content: '';
+          height: 24px;
+          left: 0;
+          position: absolute;
+          top: 0;
+          width: 24px;
+          z-index: 1;
+        }
+
+        &::after {
+          align-items: center;
+          color: #fff;
+          content: counter(number);
+          counter-increment: number;
+          display: flex;
+          font-weight: bold;
+          height: 24px;
+          justify-content: center;
+          left: 0;
+          position: absolute;
+          top: 0;
+          width: 24px;
+          z-index: 1;
+        }
+      }
+    }
+  }
+}
+
+.guide {
+  background-color: rgba(174, 150, 58, 0.6);
+  padding: 48px 0 56px;
+  text-align: center;
+
+  .text {
+    color: #fff;
+    font-weight: bold;
+    line-height: 2;
+    margin-bottom: 40px;
+  }
+
+  .btnArea {
+    display: flex;
+    justify-content: center;
+  }
+}
