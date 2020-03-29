@@ -35,7 +35,9 @@
       </div>
       <div class="footerShare">
         <div class="contact">
-          <a href="null" class="c-btn">メールで問い合わせ</a>
+          <a href="null" class="c-btn c-btn--ghostBtn">
+            <img src="@/assets/img/common/mail_icon.svg" alt="icon" class="c-btn_icon" />メールで問い合わせ
+          </a>
         </div>
         <ul class="share">
           <li>

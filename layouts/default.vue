@@ -3,7 +3,7 @@
     <div class="animationBackground"></div>
     <div class="wrapper">
       <LayoutHeader />
-      <top-page />
+      <nuxt />
       <LayoutFooter />
     </div>
   </div>
@@ -47,13 +47,11 @@
 import { Component, Vue } from 'vue-property-decorator'
 import LayoutHeader from '@/components/organisms/header.vue'
 import LayoutFooter from '@/components/organisms/footer.vue'
-import TopPage from '@/pages/index.vue'
 
 @Component({
   components: {
     LayoutHeader,
-    LayoutFooter,
-    TopPage
+    LayoutFooter
   }
 })
 export default class Home extends Vue {

@@ -9,7 +9,7 @@
       <nav>
         <ul class="navList">
           <li>
-            <a href="null">L.M.O.について</a>
+            <nuxt-link to="/about">L.M.O.について</nuxt-link>
           </li>
           <li>
             <a href="null">イベント情報</a>
@@ -56,7 +56,7 @@
     display: flex;
 
     li {
-      margin: 0 20px;
+      margin: 0 16px;
 
       a {
         align-items: center;

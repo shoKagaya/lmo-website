@@ -22,4 +22,16 @@
     height: 84px;
     width: 484px;
   }
+
+  &.c-btn--ghostBtn {
+    background-color: transparent;
+    border: $border;
+    color: $base-color;
+    width: 226px;
+  }
+
+  .c-btn_icon {
+    display: inline-block;
+    margin-right: 8px;
+  }
 }
