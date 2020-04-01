@@ -53,8 +53,7 @@
         </h2>
         <div class="content">
           <h3 class="title">
-            <span class="firstLine">バンドがやりたいじゃない</span>
-            <br />仲間と一緒に
+            <span class="firstLine">バンドがやりたいじゃない</span>仲間と一緒に
             <br />バンドを楽しみたい
           </h3>
           <p class="readText">
